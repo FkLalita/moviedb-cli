@@ -64,7 +64,7 @@ func create() {
 			log.Println(err)
 		}
 
-		err = ioutil.WriteFile("json/movie.json", jsonBytes, 0644)
+		err = ioutil.WriteFile("data/movie.json", jsonBytes, 0644)
 		if err != nil {
 			log.Println(err)
 		}
